@@ -1,0 +1,28 @@
+node_modules
+npm-debug.log
+yarn-error.log
+
+# Ignorar los archivos de la carpeta dist (serán generados en el contenedor)
+dist
+
+# Ignorar las configuraciones del entorno de desarrollo
+.env
+.env.local
+.env.test
+.env.development
+.env.production
+
+# Archivos de control de versiones
+.git
+.gitignore
+
+# Logs y caché
+logs
+*.log
+.cache
+
+# Ignorar configuraciones de IDE
+.vscode
+.idea
+*.swp
+*.swo
