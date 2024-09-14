@@ -1,0 +1,26 @@
+version: '3.8'
+
+services:
+  front-sensor-dht11:
+    container_name: front-sensor-dht11
+    build:
+      context: ./front-react
+    ports:
+      - '8080:80'
+    networks:
+      - sensor-dht11-network
+
+  api-sensor-dht11:
+    container_name: api-sensor-dht11
+    build:
+      context: ./api-nestjs
+    ports:
+      - '3000:3000'
+    environment:
+      - NODE_ENV=development
+    networks:
+      - sensor-dht11-network
+
+networks:
+  sensor-dht11-network:
+    driver: bridge

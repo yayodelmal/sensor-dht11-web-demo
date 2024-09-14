@@ -1,0 +1,28 @@
+# Ignorar node_modules y dependencias instaladas
+node_modules
+npm-debug.log
+yarn-error.log
+
+# Ignorar la carpeta de construcción local
+build
+
+# Ignorar archivos de configuración de entornos de desarrollo
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# Ignorar archivos de control de versiones
+.git
+.gitignore
+
+# Ignorar logs
+logs
+*.log
+
+# Ignorar configuraciones del IDE
+.vscode
+.idea
+*.swp
+*.swo
