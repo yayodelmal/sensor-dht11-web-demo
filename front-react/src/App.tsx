@@ -1,8 +1,8 @@
 import React from 'react';
-import ElegantSensorDashboard from './components/SensorDashboard';
+import SensorDashboard from './components/SensorDashboard';
 
 function App() {
-  return <ElegantSensorDashboard />;
+  return <SensorDashboard />;
 }
 
 export default App;
