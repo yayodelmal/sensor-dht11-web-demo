@@ -1,5 +1,5 @@
 const config = {
-    socketUrl: 'http://localhost:3000',
+    socketUrl: 'https://api.eduardogutierrez.dev',
   };
   
   export default config;
